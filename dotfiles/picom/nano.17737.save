@@ -1,0 +1,423 @@
+USER PID %CPU %MEM VSZ RSS TTY STAT START TIME COMMAND root 1 0.0 0.0 167884 12912 ?  
+Ss 20:22 0:01 /sbin/init splash root 2 0.0 0.0 0 0 ?  S 20:22 0:00 [kthreadd] root 3 
+0.0 0.0 0 0 ?  S 20:22 0:00 [pool_workqueue_release] root 4 0.0 0.0 0 0 ?  I< 20:22 
+0:00 [kworker/R-rcu_g] root 5 0.0 0.0 0 0 ?  I< 20:22 0:00 [kworker/R-rcu_p] root 6 
+0.0 0.0 0 0 ?  I< 20:22 0:00 [kworker/R-slub_] root 7 0.0 0.0 0 0 ?  I< 20:22 0:00 
+[kworker/R-netns] root 9 0.0 0.0 0 0 ?  I< 20:22 0:00 [kworker/0:0H-events_highpri] 
+root 12 0.0 0.0 0 0 ?  I< 20:22 0:00 [kworker/R-mm_pe] root 13 0.0 0.0 0 0 ?  I 20:22 
+0:00 [rcu_tasks_kthread] root 14 0.0 0.0 0 0 ?  I 20:22 0:00 [rcu_tasks_rude_kthread] 
+root 15 0.0 0.0 0 0 ?  I 20:22 0:00 [rcu_tasks_trace_kthread] root 16 0.0 0.0 0 0 ?  S 
+20:22 0:00 [ksoftirqd/0] root 17 0.0 0.0 0 0 ?  I 20:22 0:02 [rcu_preempt] root 18 0.0 
+0.0 0 0 ?  S 20:22 0:00 [migration/0] root 19 0.0 0.0 0 0 ?  S 20:22 0:00 
+[idle_inject/0] root 20 0.0 0.0 0 0 ?  S 20:22 0:00 [cpuhp/0] root 21 0.0 0.0 0 0 ?  S 
+20:22 0:00 [cpuhp/1] root 22 0.0 0.0 0 0 ?  S 20:22 0:00 [idle_inject/1] root 23 0.0 
+0.0 0 0 ?  S 20:22 0:00 [migration/1] root 24 0.0 0.0 0 0 ?  S 20:22 0:00 
+[ksoftirqd/1] root 26 0.0 0.0 0 0 ?  I< 20:22 0:00 [kworker/1:0H-events_highpri] root 
+27 0.0 0.0 0 0 ?  S 20:22 0:00 [cpuhp/2] root 28 0.0 0.0 0 0 ?  S 20:22 0:00 
+[idle_inject/2] root 29 0.0 0.0 0 0 ?  S 20:22 0:00 [migration/2] root 30 0.0 0.0 0 0 
+?  S 20:22 0:00 [ksoftirqd/2] root 32 0.0 0.0 0 0 ?  I< 20:22 0:00 
+[kworker/2:0H-events_highpri] root 33 0.0 0.0 0 0 ?  S 20:22 0:00 [cpuhp/3] root 34 
+0.0 0.0 0 0 ?  S 20:22 0:00 [idle_inject/3] root 35 0.0 0.0 0 0 ?  S 20:22 0:00 
+[migration/3] root 36 0.0 0.0 0 0 ?  S 20:22 0:00 [ksoftirqd/3] root 38 0.0 0.0 0 0 ?  
+I< 20:22 0:00 [kworker/3:0H-events_highpri] root 39 0.0 0.0 0 0 ?  S 20:22 0:00 
+[cpuhp/4] root 40 0.0 0.0 0 0 ?  S 20:22 0:00 [idle_inject/4] root 41 0.0 0.0 0 0 ?  S 
+20:22 0:00 [migration/4] root 42 0.0 0.0 0 0 ?  S 20:22 0:00 [ksoftirqd/4] root 44 0.0 
+0.0 0 0 ?  I< 20:22 0:00 [kworker/4:0H-events_highpri] root 45 0.0 0.0 0 0 ?  S 20:22 
+0:00 [cpuhp/5] root 46 0.0 0.0 0 0 ?  S 20:22 0:00 [idle_inject/5] root 47 0.0 0.0 0 0 
+?  S 20:22 0:00 [migration/5] root 48 0.0 0.0 0 0 ?  S 20:22 0:00 [ksoftirqd/5] root 
+50 0.0 0.0 0 0 ?  I< 20:22 0:00 [kworker/5:0H-events_highpri] root 51 0.0 0.0 0 0 ?  S 
+20:22 0:00 [cpuhp/6] root 52 0.0 0.0 0 0 ?  S 20:22 0:00 [idle_inject/6] root 53 0.0 
+0.0 0 0 ?  S 20:22 0:00 [migration/6] root 54 0.0 0.0 0 0 ?  S 20:22 0:00 
+[ksoftirqd/6] root 56 0.0 0.0 0 0 ?  I< 20:22 0:00 [kworker/6:0H-events_highpri] root 
+57 0.0 0.0 0 0 ?  S 20:22 0:00 [cpuhp/7] root 58 0.0 0.0 0 0 ?  S 20:22 0:00 
+[idle_inject/7] root 59 0.0 0.0 0 0 ?  S 20:22 0:00 [migration/7] root 60 0.0 0.0 0 0 
+?  S 20:22 0:00 [ksoftirqd/7] root 61 0.0 0.0 0 0 ?  I 20:22 0:00 
+[kworker/7:0-i915-unordered] root 62 0.0 0.0 0 0 ?  I< 20:22 0:00 
+[kworker/7:0H-events_highpri] root 63 0.0 0.0 0 0 ?  S 20:22 0:00 [kdevtmpfs] root 64 
+0.0 0.0 0 0 ?  I< 20:22 0:00 [kworker/R-inet_] root 65 0.0 0.0 0 0 ?  S 20:22 0:00 
+[kauditd] root 67 0.0 0.0 0 0 ?  S 20:22 0:00 [khungtaskd] root 69 0.0 0.0 0 0 ?  S 
+20:22 0:00 [oom_reaper] root 70 0.0 0.0 0 0 ?  I< 20:22 0:00 [kworker/R-write] root 71 
+0.0 0.0 0 0 ?  S 20:22 0:00 [kcompactd0] root 72 0.0 0.0 0 0 ?  SN 20:22 0:00 [ksmd] 
+root 74 0.0 0.0 0 0 ?  SN 20:22 0:00 [khugepaged] root 75 0.0 0.0 0 0 ?  I< 20:22 0:00 
+[kworker/R-kinte] root 76 0.0 0.0 0 0 ?  I< 20:22 0:00 [kworker/R-kbloc] root 77 0.0 
+0.0 0 0 ?  I< 20:22 0:00 [kworker/R-blkcg] root 78 0.1 0.0 0 0 ?  S 20:22 0:05 
+[irq/9-acpi] root 80 0.0 0.0 0 0 ?  I< 20:22 0:00 [kworker/R-tpm_d] root 81 0.0 0.0 0 
+0 ?  I< 20:22 0:00 [kworker/R-ata_s] root 82 0.0 0.0 0 0 ?  I< 20:22 0:00 
+[kworker/R-md] root 83 0.0 0.0 0 0 ?  I< 20:22 0:00 [kworker/R-md_bi] root 84 0.0 0.0 
+0 0 ?  I< 20:22 0:00 [kworker/R-edac-] root 85 0.0 0.0 0 0 ?  I< 20:22 0:00 
+[kworker/R-devfr] root 86 0.0 0.0 0 0 ?  S 20:22 0:00 [watchdogd] root 88 0.0 0.0 0 0 
+?  I< 20:22 0:00 [kworker/4:1H-events_highpri] root 89 0.0 0.0 0 0 ?  S 20:22 0:00 
+[kswapd0] root 90 0.0 0.0 0 0 ?  S 20:22 0:00 [ecryptfs-kthread] root 91 0.0 0.0 0 0 ?  
+I< 20:22 0:00 [kworker/R-kthro] root 92 0.0 0.0 0 0 ?  S 20:22 0:00 [irq/124-pciehp] 
+root 93 0.0 0.0 0 0 ?  S 20:22 0:00 [irq/125-pciehp] root 94 0.0 0.0 0 0 ?  I 20:22 
+0:00 [kworker/1:1-mm_percpu_wq] root 98 0.0 0.0 0 0 ?  I< 20:22 0:00 [kworker/R-acpi_] 
+root 100 0.0 0.0 0 0 ?  S 20:22 0:00 [hwrng] root 102 0.0 0.0 0 0 ?  I< 20:22 0:00 
+[kworker/R-mld] root 103 0.0 0.0 0 0 ?  I< 20:22 0:00 [kworker/R-ipv6_] root 104 0.0 
+0.0 0 0 ?  I< 20:22 0:00 [kworker/0:1H-kblockd] root 111 0.0 0.0 0 0 ?  I< 20:22 0:00 
+[kworker/R-kstrp] root 126 0.0 0.0 0 0 ?  I< 20:22 0:00 [kworker/R-charg] root 145 0.0 
+0.0 0 0 ?  I< 20:22 0:00 [kworker/5:1H-events_highpri] root 149 0.0 0.0 0 0 ?  I< 
+20:22 0:00 [kworker/3:1H-events_highpri] root 161 0.0 0.0 0 0 ?  I< 20:22 0:00 
+[kworker/2:1H-events_highpri] root 162 0.0 0.0 0 0 ?  I< 20:22 0:00 
+[kworker/7:1H-acpi_thermal_pm] root 163 0.0 0.0 0 0 ?  I< 20:22 0:00 
+[kworker/6:1H-events_highpri] root 164 0.0 0.0 0 0 ?  I< 20:22 0:00 
+[kworker/1:1H-events_highpri] root 186 0.0 0.0 0 0 ?  I< 20:22 0:00 [kworker/R-nvme-] 
+root 187 0.0 0.0 0 0 ?  I< 20:22 0:00 [kworker/R-nvme-] root 188 0.0 0.0 0 0 ?  I< 
+20:22 0:00 [kworker/R-nvme-] root 189 0.0 0.0 0 0 ?  I< 20:22 0:00 [kworker/R-nvme-] 
+root 203 0.4 0.0 0 0 ?  S 20:22 0:15 [irq/179-SYNA30BD:00] root 238 0.0 0.0 0 0 ?  S 
+20:22 0:00 [jbd2/nvme0n1p2-8] root 239 0.0 0.0 0 0 ?  I< 20:22 0:00 [kworker/R-ext4-] 
+root 278 0.0 0.2 77484 40832 ?  S<s 20:22 0:00 /lib/systemd/systemd-journald root 307 
+0.0 0.0 27148 6912 ?  Ss 20:22 0:00 /lib/systemd/systemd-udevd root 367 0.1 0.0 0 0 ?  
+I< 20:22 0:03 [kworker/u17:1-i915_flip] root 399 0.0 0.0 0 0 ?  I< 20:22 0:00 
+[kworker/R-cfg80] root 403 0.0 0.0 0 0 ?  S 20:22 0:00 [irq/188-mei_me] root 410 0.0 
+0.0 0 0 ?  I< 20:22 0:00 [kworker/R-crypt] root 414 0.0 0.0 0 0 ?  S 20:22 0:01 
+[irq/189-iwlwifi:default_queue] root 415 0.0 0.0 0 0 ?  S 20:22 0:00 
+[irq/190-iwlwifi:queue_1] root 416 0.0 0.0 0 0 ?  S 20:22 0:01 
+[irq/191-iwlwifi:queue_2] root 417 0.0 0.0 0 0 ?  S 20:22 0:00 
+[irq/192-iwlwifi:queue_3] root 418 0.0 0.0 0 0 ?  S 20:22 0:00 
+[irq/193-iwlwifi:queue_4] root 419 0.0 0.0 0 0 ?  S 20:22 0:00 
+[irq/194-iwlwifi:queue_5] root 420 0.0 0.0 0 0 ?  S 20:22 0:01 
+[irq/195-iwlwifi:queue_6] root 421 0.0 0.0 0 0 ?  S 20:22 0:01 
+[irq/196-iwlwifi:queue_7] root 422 0.0 0.0 0 0 ?  S 20:22 0:00 
+[irq/197-iwlwifi:queue_8] root 423 0.0 0.0 0 0 ?  S 20:22 0:00 
+[irq/198-iwlwifi:exception] systemd+ 492 0.0 0.0 14836 6912 ?  Ss 20:22 0:03 
+/lib/systemd/systemd-oomd systemd+ 496 0.0 0.0 26060 13952 ?  Ss 20:22 0:00 
+/lib/systemd/systemd-resolved systemd+ 497 0.0 0.0 89388 7424 ?  Ssl 20:22 0:00 
+/lib/systemd/systemd-timesyncd root 503 0.0 0.0 0 0 ?  I< 20:22 0:00 [kworker/R-ttm] 
+root 524 0.0 0.0 0 0 ?  S 20:22 0:00 [card1-crtc0] root 525 0.0 0.0 0 0 ?  S 20:22 
+0:00 [card1-crtc1] root 526 0.0 0.0 0 0 ?  S 20:22 0:00 [card1-crtc2] root 527 0.0 0.0 
+0 0 ?  S 20:22 0:00 [card1-crtc3] root 545 0.0 0.0 0 0 ?  S 20:22 0:00 
+[irq/200-AudioDSP] root 573 0.0 0.0 248648 7868 ?  Ssl 20:22 0:00 
+/usr/libexec/accounts-daemon root 574 0.0 0.0 2816 1792 ?  Ss 20:22 0:00 
+/usr/sbin/acpid avahi 576 0.1 0.0 7792 3584 ?  Ss 20:22 0:04 avahi-daemon: running 
+[aletod-HP-EliteBook-840-G8-Notebook-PC.local] root 579 0.0 0.0 10604 5376 ?  Ss 20:22 
+0:00 /usr/lib/bluetooth/bluetoothd root 581 0.0 0.0 18152 3072 ?  Ss 20:22 0:00 
+/usr/sbin/cron -f -P message+ 585 0.0 0.0 11068 6272 ?  Ss 20:22 0:00 @dbus-daemon 
+--system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only 
+root 593 0.0 0.1 343524 19132 ?  Ssl 20:22 0:01 /usr/sbin/NetworkManager --no-daemon 
+root 605 0.0 0.0 82844 3840 ?  Ssl 20:22 0:00 /usr/sbin/irqbalance --foreground root 
+614 0.0 0.1 49704 20848 ?  Ss 20:22 0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher 
+--run-startup-triggers root 618 0.0 0.0 252340 12080 ?  Ssl 20:22 0:01 
+/usr/libexec/polkitd --no-debug root 620 0.0 0.0 248764 7732 ?  Ssl 20:22 0:00 
+/usr/libexec/power-profiles-daemon syslog 621 0.0 0.0 222404 6144 ?  Ssl 20:22 0:00 
+/usr/sbin/rsyslogd -n -iNONE root 629 0.0 0.0 245140 7040 ?  Ssl 20:22 0:00 
+/usr/libexec/switcheroo-control root 636 0.0 0.0 40068 7916 ?  Ss 20:22 0:00 
+/lib/systemd/systemd-logind root 638 0.0 0.0 284888 10496 ?  Ssl 20:22 0:01 
+/usr/sbin/thermald --systemd --dbus-enable --adaptive root 641 0.0 0.0 392988 12520 ?  
+Ssl 20:22 0:00 /usr/libexec/udisks2/udisksd root 643 0.0 0.0 17828 11520 ?  Ss 20:22 
+0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant avahi 652 0.0 0.0 7444 1280 ?  
+S 20:22 0:00 avahi-daemon: chroot helper root 722 0.0 0.0 317972 11984 ?  Ssl 20:22 
+0:00 /usr/sbin/ModemManager root 732 0.0 0.0 248916 8240 ?  Ssl 20:22 0:00 
+/usr/libexec/boltd root 747 0.0 0.0 82188 14208 ?  Ss 20:22 0:00 /usr/sbin/cupsd -l 
+root 780 0.0 0.1 126848 23936 ?  Ssl 20:22 0:00 /usr/bin/python3 
+/usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal root 811 
+0.0 0.0 250012 8960 ?  Ssl 20:22 0:00 /usr/sbin/gdm3 root 848 0.0 0.0 251016 9216 ?  
+Ssl 20:22 0:00 /usr/libexec/upowerd rtkit 886 0.0 0.0 154004 3456 ?  SNsl 20:22 0:00 
+/usr/libexec/rtkit-daemon root 1035 0.0 0.1 306900 21172 ?  Ssl 20:22 0:00 
+/usr/libexec/packagekitd colord 1242 0.0 0.0 254148 13036 ?  Ssl 20:22 0:00 
+/usr/libexec/colord root 1367 0.0 0.0 179396 10872 ?  Sl 20:23 0:00 gdm-session-worker 
+[pam/gdm-password] aletod 1380 0.0 0.0 17552 9984 ?  Ss 20:23 0:00 
+/lib/systemd/systemd --user aletod 1381 0.0 0.0 104448 5764 ?  S 20:23 0:00 (sd-pam) 
+aletod 1387 0.0 0.0 48516 6656 ?  S<sl 20:23 0:00 /usr/bin/pipewire aletod 1388 0.0 
+0.0 32284 6528 ?  Ssl 20:23 0:00 /usr/bin/pipewire-media-session aletod 1389 0.1 0.1 
+1014640 29784 ?  S<sl 20:23 0:05 /usr/bin/pulseaudio --daemonize=no 
+--log-target=journal aletod 1399 0.0 0.0 249556 7324 ?  Sl 20:23 0:00 
+/usr/bin/gnome-keyring-daemon --daemonize --login aletod 1420 0.0 0.0 9188 4992 ?  Ss 
+20:23 0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile 
+--systemd-activation --syslog-only aletod 1421 0.0 0.0 471832 7680 ?  Ssl 20:23 0:00 
+/usr/libexec/xdg-document-portal aletod 1424 0.0 0.0 244804 6400 ?  Ssl 20:23 0:00 
+/usr/libexec/xdg-permission-store root 1430 0.0 0.0 2796 1920 ?  Ss 20:23 0:00 
+fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- 
+/run/user/1000/doc root 1449 0.0 0.0 0 0 ?  S< 20:23 0:00 [krfcommd] aletod 1455 0.0 
+0.0 171092 6144 tty2 Ssl+ 20:23 0:00 /usr/libexec/gdm-x-session --register-session 
+--run-script i3 aletod 1457 3.0 1.4 814504 239280 tty2 Sl+ 20:23 1:49 
+/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -nolisten tcp 
+-background none -noreset -keeptty -novtswitch -verbose 3 root 1463 0.0 0.0 2776 1280 
+tty2 S+ 20:23 0:00 /usr/lib/xserver-xorg-video-intel/xf86-video-intel-backlight-helper 
+intel_backlight aletod 1483 0.0 0.0 209416 15720 tty2 S+ 20:23 0:01 i3 -a --restart 
+/run/user/1000/i3/restart-state.1483 aletod 1562 0.4 0.0 321368 7808 ?  Ssl 20:23 0:16 
+/usr/bin/ibus-daemon --daemonize --xim aletod 1568 0.0 0.0 249308 8320 ?  Ssl 20:23 
+0:00 /usr/libexec/gvfsd aletod 1578 0.0 0.0 380896 6656 ?  Sl 20:23 0:00 
+/usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f aletod 1581 0.0 0.0 245968 7552 ?  Sl 
+20:23 0:00 /usr/libexec/ibus-dconf aletod 1582 0.1 0.6 1149492 98996 ?  Sl 20:23 0:04 
+/usr/libexec/ibus-ui-gtk3 aletod 1587 0.1 0.5 985964 82308 ?  Sl 20:23 0:04 
+/usr/libexec/ibus-extension-gtk3 aletod 1591 0.0 0.4 903100 72768 ?  Sl 20:23 0:00 
+/usr/libexec/ibus-x11 --kill-daemon aletod 1593 0.0 0.0 245932 7680 ?  Sl 20:23 0:00 
+/usr/libexec/ibus-portal aletod 1595 0.0 0.0 2892 1664 ?  Ss 20:23 0:00 /bin/sh -c 
+xss-lock --transfer-sleep-lock -- i3lock --nofork aletod 1597 0.0 0.0 2892 1664 ?  Ss 
+20:23 0:00 /bin/sh -c nm-applet aletod 1599 0.0 0.0 245212 6656 ?  Sl 20:23 0:00 
+xss-lock --transfer-sleep-lock -- i3lock --nofork aletod 1605 0.0 0.6 1305160 101692 ?  
+Sl 20:23 0:01 nm-applet aletod 1628 0.0 0.0 309624 8192 ?  Sl 20:23 0:00 
+/usr/libexec/at-spi-bus-launcher --launch-immediately aletod 1629 0.0 0.0 245772 6528 
+?  Sl 20:23 0:00 /usr/libexec/geoclue-2.0/demos/agent aletod 1654 0.0 0.0 8432 4480 ?  
+S 20:23 0:00 /usr/bin/dbus-daemon 
+--config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 
+11 --address=unix:path=/run/user/1000/at-spi/bus_0 aletod 1664 0.0 0.4 760544 67712 ?  
+Sl 20:23 0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify aletod 1665 
+0.0 0.2 68652 34048 ?  S 20:23 0:00 /usr/bin/python3 
+/usr/share/system-config-printer/applet.py aletod 1689 0.0 0.2 547960 41856 ?  Sl 
+20:23 0:00 update-notifier aletod 1714 0.0 0.0 162756 8192 ?  Sl 20:23 0:00 
+/usr/libexec/at-spi2-registryd --use-gnome-session aletod 1718 0.0 0.0 485184 13696 ?  
+Ssl 20:23 0:00 /usr/libexec/xdg-desktop-portal aletod 1739 0.0 0.5 1491792 86060 ?  
+Ssl 20:23 0:00 /usr/libexec/xdg-desktop-portal-gnome aletod 1754 0.1 0.0 172144 7552 ?  
+Sl 20:23 0:05 /usr/libexec/ibus-engine-simple aletod 1764 0.0 0.1 1023524 26240 ?  Ssl 
+20:23 0:00 /usr/libexec/evolution-source-registry aletod 1792 0.0 0.2 596440 42368 ?  
+Sl 20:23 0:00 /usr/libexec/goa-daemon aletod 1800 0.0 0.0 347060 15360 ?  Sl 20:23 
+0:00 /usr/libexec/goa-identity-service aletod 1814 0.0 0.1 345484 21832 ?  Ssl 20:23 
+0:00 /usr/libexec/xdg-desktop-portal-gtk aletod 1826 0.0 0.0 249296 8320 ?  Sl 20:23 
+0:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets aletod 
+1840 0.0 0.1 1389836 31360 ?  Ssl 20:23 0:00 /usr/libexec/evolution-calendar-factory 
+aletod 1854 0.0 0.0 156840 5632 ?  Ssl 20:23 0:00 /usr/libexec/dconf-service aletod 
+1863 0.0 0.1 754664 29312 ?  Ssl 20:23 0:00 /usr/libexec/evolution-addressbook-factory 
+aletod 1899 0.0 0.0 39128 11904 ?  Ss 20:23 0:00 
+/snap/snapd-desktop-integration/253/usr/bin/snapd-desktop-integration aletod 1961 0.0 
+0.5 1208728 84596 ?  Sl 20:23 0:00 
+/snap/snapd-desktop-integration/253/usr/bin/snapd-desktop-integration aletod 2036 0.0 
+0.1 478600 16640 ?  Ssl 20:23 0:00 /usr/bin/dunst root 2069 0.0 0.0 173236 12672 ?  
+Ssl 20:23 0:00 /usr/sbin/cups-browsed kernoops 2083 0.0 0.0 13092 2068 ?  Ss 20:23 
+0:00 /usr/sbin/kerneloops --test kernoops 2085 0.0 0.0 13092 2192 ?  Ss 20:23 0:00 
+/usr/sbin/kerneloops lp 2096 0.0 0.0 16284 6656 ?  S 20:23 0:00 
+/usr/lib/cups/notifier/dbus dbus:// aletod 2098 0.0 0.0 2892 1664 ?  Ss 20:23 0:00 
+/bin/sh -c firefox aletod 2099 24.6 4.0 12207960 649812 ?  Sl 20:23 14:42 
+/snap/firefox/5361/usr/lib/firefox/firefox aletod 2396 0.0 0.3 213404 48640 ?  Sl 
+20:23 0:00 /snap/firefox/5361/usr/lib/firefox/firefox -contentproc -parentBuildID 
+20241125231607 -prefsHandle 0 -prefsLen 31882 -prefMapHandle 1 -prefMapSize 258961 
+-sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId 
+{8ff9e474-f71d-4f3b-8856-d60f36b3de62} -parentPid 2099 -crashReporter 5 -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 1 socket aletod 2429 0.0 0.6 2451772 103412 
+?  Sl 20:23 0:01 /snap/firefox/5361/usr/lib/firefox/firefox -contentproc -isForBrowser 
+-prefsHandle 0 -prefsLen 31947 -prefMapHandle 1 -prefMapSize 258961 -jsInitHandle 2 
+-jsInitLen 234660 -parentBuildID 20241125231607 -sandboxReporter 3 -chrootClient 4 
+-ipcHandle 5 -initialChannelId {06d6fe70-5eb6-40c7-a791-156058417154} -parentPid 2099 
+-crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja -appomni 
+/snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 2 tab aletod 2458 0.1 0.8 2492832 139192 ?  
+Sl 20:23 0:05 /snap/firefox/5361/usr/lib/firefox/firefox -contentproc -isForBrowser 
+-prefsHandle 0 -prefsLen 32023 -prefMapHandle 1 -prefMapSize 258961 -jsInitHandle 2 
+-jsInitLen 234660 -parentBuildID 20241125231607 -sandboxReporter 3 -chrootClient 4 
+-ipcHandle 5 -initialChannelId {ef7ee8cd-43bd-4595-92c0-72482c862588} -parentPid 2099 
+-crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja -appomni 
+/snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 3 tab aletod 2495 0.0 0.1 1682428 20632 ?  
+Sl 20:23 0:00 /usr/bin/snap userd aletod 2783 0.3 0.3 354244 63448 ?  Sl 20:23 0:11 
+/snap/firefox/5361/usr/lib/firefox/firefox -contentproc -parentBuildID 20241125231607 
+-sandboxingKind 0 -prefsHandle 0 -prefsLen 39172 -prefMapHandle 1 -prefMapSize 258961 
+-sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId 
+{4791cb5c-c8dd-44ed-ae89-34b3e69764f4} -parentPid 2099 -crashReporter 5 -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 4 utility aletod 2792 0.1 1.0 2609536 
+169308 ?  Sl 20:23 0:06 /snap/firefox/5361/usr/lib/firefox/firefox -contentproc 
+-isForBrowser -prefsHandle 0 -prefsLen 35870 -prefMapHandle 1 -prefMapSize 258961 
+-jsInitHandle 2 -jsInitLen 234660 -parentBuildID 20241125231607 -sandboxReporter 3 
+-chrootClient 4 -ipcHandle 5 -initialChannelId {f6ed1bd8-3ecf-4928-bd46-080afe5cfbc8} 
+-parentPid 2099 -crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja 
+-appomni /snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 5 tab aletod 2796 0.2 1.3 2600164 213252 ?  
+Sl 20:23 0:08 /snap/firefox/5361/usr/lib/firefox/firefox -contentproc -isForBrowser 
+-prefsHandle 0 -prefsLen 35870 -prefMapHandle 1 -prefMapSize 258961 -jsInitHandle 2 
+-jsInitLen 234660 -parentBuildID 20241125231607 -sandboxReporter 3 -chrootClient 4 
+-ipcHandle 5 -initialChannelId {e1ca8774-d304-4804-ac0e-82e3e19fcd7f} -parentPid 2099 
+-crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja -appomni 
+/snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 6 tab aletod 2798 0.2 1.0 2615836 175248 ?  
+Sl 20:23 0:08 /snap/firefox/5361/usr/lib/firefox/firefox -contentproc -isForBrowser 
+-prefsHandle 0 -prefsLen 35870 -prefMapHandle 1 -prefMapSize 258961 -jsInitHandle 2 
+-jsInitLen 234660 -parentBuildID 20241125231607 -sandboxReporter 3 -chrootClient 4 
+-ipcHandle 5 -initialChannelId {c636acd9-0b52-4d9d-a51e-d6e4a7ffc30b} -parentPid 2099 
+-crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja -appomni 
+/snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 7 tab aletod 2898 1.9 2.5 2792688 409348 ?  
+Sl 20:23 1:10 /snap/firefox/5361/usr/lib/firefox/firefox -contentproc -isForBrowser 
+-prefsHandle 0 -prefsLen 36436 -prefMapHandle 1 -prefMapSize 258961 -jsInitHandle 2 
+-jsInitLen 234660 -parentBuildID 20241125231607 -sandboxReporter 3 -chrootClient 4 
+-ipcHandle 5 -initialChannelId {6a98b37f-0744-4647-b317-fcb48d9269d7} -parentPid 2099 
+-crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja -appomni 
+/snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 8 tab aletod 2976 3.1 2.5 2829524 408896 ?  
+Rl 20:24 1:50 /snap/firefox/5361/usr/lib/firefox/firefox -contentproc -isForBrowser 
+-prefsHandle 0 -prefsLen 36436 -prefMapHandle 1 -prefMapSize 258961 -jsInitHandle 2 
+-jsInitLen 234660 -parentBuildID 20241125231607 -sandboxReporter 3 -chrootClient 4 
+-ipcHandle 5 -initialChannelId {d4e563b6-4590-4c2a-aa5c-97cb14019f97} -parentPid 2099 
+-crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja -appomni 
+/snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 10 tab aletod 3053 3.6 0.6 504356 98236 ?  
+Sl 20:24 2:10 /snap/firefox/5361/usr/lib/firefox/firefox -contentproc -parentBuildID 
+20241125231607 -prefsHandle 0 -prefsLen 39758 -prefMapHandle 1 -prefMapSize 258961 
+-sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId 
+{a8aa5f43-47db-422b-b4d0-810df21dea2d} -parentPid 2099 -crashReporter 5 -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 12 rdd aletod 3107 0.0 0.6 2452976 110500 ?  
+Sl 20:24 0:02 /snap/firefox/5361/usr/lib/firefox/firefox -contentproc -isForBrowser 
+-prefsHandle 0 -prefsLen 36436 -prefMapHandle 1 -prefMapSize 258961 -jsInitHandle 2 
+-jsInitLen 234660 -parentBuildID 20241125231607 -sandboxReporter 3 -chrootClient 4 
+-ipcHandle 5 -initialChannelId {291ba301-0c0e-4917-a410-bdfbcce57519} -parentPid 2099 
+-crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja -appomni 
+/snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 13 tab aletod 3326 0.0 0.0 324584 10624 ?  
+Ssl 20:25 0:00 /usr/libexec/gvfs-udisks2-volume-monitor aletod 3331 0.0 0.0 323880 
+8192 ?  Ssl 20:25 0:00 /usr/libexec/gvfs-afc-volume-monitor aletod 3336 0.0 0.0 245120 
+6784 ?  Ssl 20:25 0:00 /usr/libexec/gvfs-mtp-volume-monitor aletod 3340 0.0 0.0 245304 
+6784 ?  Ssl 20:25 0:00 /usr/libexec/gvfs-goa-volume-monitor aletod 3344 0.0 0.0 246208 
+7168 ?  Ssl 20:25 0:00 /usr/libexec/gvfs-gphoto2-volume-monitor aletod 3357 0.8 0.3 
+578564 61692 ?  Ssl 20:25 0:28 /usr/libexec/gnome-terminal-server aletod 3367 0.0 0.0 
+2892 1664 ?  Ss 20:25 0:00 /bin/sh -c i3-sensible-terminal aletod 3368 0.0 0.1 44592 
+19712 ?  S 20:25 0:00 /usr/bin/python3 /usr/bin/gnome-terminal --wait aletod 3390 0.0 
+0.1 309680 20608 ?  Sl 20:25 0:00 /usr/bin/gnome-terminal.real --wait aletod 3395 0.2 
+0.0 27748 10880 pts/1 Ss 20:25 0:08 zsh aletod 3412 0.0 0.0 22412 4524 pts/1 S 20:25 
+0:00 zsh aletod 3482 0.0 0.0 23532 5456 pts/1 S 20:25 0:00 zsh aletod 3483 0.0 0.0 
+23516 5072 pts/1 S 20:25 0:00 zsh aletod 3486 0.0 0.0 4576 1664 pts/1 Sl 20:25 0:00 
+/home/aletod/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c 
+-1 -m -1 -v FATAL -t 16 aletod 4164 0.3 1.4 2633992 225260 ?  Sl 20:28 0:10 
+/snap/firefox/5361/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 
+-prefsLen 36488 -prefMapHandle 1 -prefMapSize 258961 -jsInitHandle 2 -jsInitLen 234660 
+-parentBuildID 20241125231607 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 
+-initialChannelId {6dc802ba-e0ed-4b0c-822d-fba7f4229336} -parentPid 2099 
+-crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja -appomni 
+/snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 16 tab root 5180 0.0 0.0 0 0 ?  I 20:36 
+0:00 [kworker/u16:0-flush-259:0] root 5479 0.0 0.0 0 0 ?  I 20:39 0:00 
+[kworker/6:0-i915-unordered] aletod 5480 0.3 1.4 2652568 239008 ?  Sl 20:39 0:10 
+/snap/firefox/5361/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 
+-prefsLen 36488 -prefMapHandle 1 -prefMapSize 258961 -jsInitHandle 2 -jsInitLen 234660 
+-parentBuildID 20241125231607 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 
+-initialChannelId {fecc80bb-a964-43fe-83dc-9db7ecf9bbb5} -parentPid 2099 
+-crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja -appomni 
+/snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 19 tab aletod 5586 0.0 0.0 2892 1664 ?  Ss 
+20:39 0:00 /bin/sh -c i3-sensible-terminal aletod 5587 0.0 0.1 44592 19584 ?  S 20:39 
+0:00 /usr/bin/python3 /usr/bin/gnome-terminal --wait aletod 5588 0.0 0.1 309680 20608 
+?  Sl 20:39 0:00 /usr/bin/gnome-terminal.real --wait aletod 5592 0.0 0.0 28064 12748 
+pts/2 Ss+ 20:39 0:00 zsh aletod 5645 0.0 0.0 23536 5336 pts/2 S 20:39 0:00 zsh aletod 
+5647 0.0 0.0 23520 4952 pts/2 S 20:39 0:00 zsh aletod 5649 0.0 0.0 23628 5832 pts/2 S 
+20:39 0:00 zsh aletod 5654 0.0 0.0 4576 1664 pts/2 Sl 20:39 0:00 
+/home/aletod/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c 
+-1 -m -1 -v FATAL -t 16 aletod 6502 1.3 1.6 2733504 268272 ?  Sl 20:41 0:33 
+/snap/firefox/5361/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 
+-prefsLen 36488 -prefMapHandle 1 -prefMapSize 258961 -jsInitHandle 2 -jsInitLen 234660 
+-parentBuildID 20241125231607 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 
+-initialChannelId {018d8f49-558d-4848-b6bc-329318bc2ef5} -parentPid 2099 
+-crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja -appomni 
+/snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 22 tab aletod 6721 0.2 0.8 2477008 135288 ?  
+Sl 20:41 0:07 /snap/firefox/5361/usr/lib/firefox/firefox -contentproc -isForBrowser 
+-prefsHandle 0 -prefsLen 36488 -prefMapHandle 1 -prefMapSize 258961 -jsInitHandle 2 
+-jsInitLen 234660 -parentBuildID 20241125231607 -sandboxReporter 3 -chrootClient 4 
+-ipcHandle 5 -initialChannelId {cf5abb2b-f589-47b3-9514-41688928b3d7} -parentPid 2099 
+-crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja -appomni 
+/snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 24 tab aletod 7373 3.4 1.3 2637828 223172 ?  
+Sl 20:46 1:17 /snap/firefox/5361/usr/lib/firefox/firefox -contentproc -isForBrowser 
+-prefsHandle 0 -prefsLen 36488 -prefMapHandle 1 -prefMapSize 258961 -jsInitHandle 2 
+-jsInitLen 234660 -parentBuildID 20241125231607 -sandboxReporter 3 -chrootClient 4 
+-ipcHandle 5 -initialChannelId {a8859ee9-fb95-41c8-b4c7-9c73b433e71c} -parentPid 2099 
+-crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja -appomni 
+/snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 27 tab root 7449 0.0 0.0 0 0 ?  I 20:47 
+0:00 [kworker/3:0-events] root 7450 0.0 0.0 0 0 ?  I 20:47 0:00 [kworker/5:1-events] 
+root 7828 0.0 0.0 0 0 ?  I 20:50 0:00 [kworker/u16:1-events_power_efficient] root 8925 
+0.0 0.0 0 0 ?  I 20:54 0:00 [kworker/4:0-events] root 9486 0.0 0.0 0 0 ?  I 20:55 0:00 
+[kworker/7:1-events] root 9911 0.0 0.1 1690948 31148 ?  Ssl 20:55 0:00 
+/usr/lib/snapd/snapd aletod 10747 0.1 1.0 2521472 167904 ?  Sl 20:56 0:02 
+/snap/firefox/5361/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 
+-prefsLen 36557 -prefMapHandle 1 -prefMapSize 258961 -jsInitHandle 2 -jsInitLen 234660 
+-parentBuildID 20241125231607 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 
+-initialChannelId {2fe9a227-72be-433e-9aab-08b1158aea89} -parentPid 2099 
+-crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja -appomni 
+/snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 37 tab aletod 10881 0.1 0.7 2452396 126160 
+?  Sl 20:57 0:02 /snap/firefox/5361/usr/lib/firefox/firefox -contentproc -isForBrowser 
+-prefsHandle 0 -prefsLen 36557 -prefMapHandle 1 -prefMapSize 258961 -jsInitHandle 2 
+-jsInitLen 234660 -parentBuildID 20241125231607 -sandboxReporter 3 -chrootClient 4 
+-ipcHandle 5 -initialChannelId {48491ced-ceeb-483c-a13b-2eefc03f8c0f} -parentPid 2099 
+-crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja -appomni 
+/snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 38 tab root 12465 0.0 0.0 0 0 ?  I 21:00 
+0:00 [kworker/1:0-events] aletod 12466 0.2 1.0 2524740 173560 ?  Sl 21:00 0:02 
+/snap/firefox/5361/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 
+-prefsLen 36557 -prefMapHandle 1 -prefMapSize 258961 -jsInitHandle 2 -jsInitLen 234660 
+-parentBuildID 20241125231607 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 
+-initialChannelId {4a972502-1343-40a8-8d08-29bddf8a3da5} -parentPid 2099 
+-crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja -appomni 
+/snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 39 tab root 12528 0.0 0.0 0 0 ?  I 21:00 
+0:00 [kworker/2:1-cgroup_destroy] aletod 12543 0.2 1.0 2521288 168016 ?  Sl 21:01 0:03 
+/snap/firefox/5361/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 
+-prefsLen 36557 -prefMapHandle 1 -prefMapSize 258961 -jsInitHandle 2 -jsInitLen 234660 
+-parentBuildID 20241125231607 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 
+-initialChannelId {b63a87ee-91fd-47e9-8cc3-2a79ff1b0550} -parentPid 2099 
+-crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja -appomni 
+/snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 40 tab aletod 13529 0.1 0.9 2531472 158816 
+?  Sl 21:03 0:02 /snap/firefox/5361/usr/lib/firefox/firefox -contentproc -isForBrowser 
+-prefsHandle 0 -prefsLen 36558 -prefMapHandle 1 -prefMapSize 258961 -jsInitHandle 2 
+-jsInitLen 234660 -parentBuildID 20241125231607 -sandboxReporter 3 -chrootClient 4 
+-ipcHandle 5 -initialChannelId {9d224104-1d2a-4da0-b91a-aa96e0026252} -parentPid 2099 
+-crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja -appomni 
+/snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 41 tab aletod 13696 1.9 2.0 2767436 335472 
+?  Sl 21:04 0:22 /snap/firefox/5361/usr/lib/firefox/firefox -contentproc -isForBrowser 
+-prefsHandle 0 -prefsLen 36558 -prefMapHandle 1 -prefMapSize 258961 -jsInitHandle 2 
+-jsInitLen 234660 -parentBuildID 20241125231607 -sandboxReporter 3 -chrootClient 4 
+-ipcHandle 5 -initialChannelId {56e31e49-98d7-46f8-8331-0253d70bf57d} -parentPid 2099 
+-crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja -appomni 
+/snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 42 tab root 13950 0.0 0.0 0 0 ?  I< 21:05 
+0:00 [kworker/u17:2-rb_allocator] root 13996 0.0 0.0 0 0 ?  I 21:05 0:00 
+[kworker/3:3-events] root 13997 0.0 0.0 0 0 ?  I 21:05 0:00 [kworker/0:1-events] root 
+14094 0.0 0.0 0 0 ?  I 21:06 0:00 [kworker/2:0-i915-unordered] aletod 14207 0.0 0.0 
+2892 1664 ?  Ss 21:07 0:00 /bin/sh -c i3-sensible-terminal aletod 14208 0.0 0.1 44592 
+19840 ?  S 21:07 0:00 /usr/bin/python3 /usr/bin/gnome-terminal --wait aletod 14209 0.0 
+0.1 309684 20608 ?  Sl 21:07 0:00 /usr/bin/gnome-terminal.real --wait aletod 14213 0.0 
+0.0 28224 13052 pts/3 Ss+ 21:07 0:00 zsh aletod 14218 0.0 0.0 22464 4680 pts/3 S 21:07 
+0:00 zsh aletod 14259 0.0 0.0 23756 5552 pts/3 S 21:07 0:00 zsh aletod 14260 0.0 0.0 
+23740 5168 pts/3 S 21:07 0:00 zsh aletod 14262 0.0 0.0 4576 1664 pts/3 Sl 21:07 0:00 
+/home/aletod/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c 
+-1 -m -1 -v FATAL -t 16 aletod 14675 0.0 0.0 2892 1664 ?  Ss 21:08 0:00 /bin/sh -c 
+i3-sensible-terminal aletod 14676 0.0 0.1 44592 19840 ?  S 21:08 0:00 /usr/bin/python3 
+/usr/bin/gnome-terminal --wait aletod 14677 0.0 0.1 309696 20352 ?  Sl 21:08 0:00 
+/usr/bin/gnome-terminal.real --wait aletod 14681 0.2 0.1 35900 18740 pts/0 Ss+ 21:08 
+0:02 zsh aletod 14685 0.0 0.0 22460 4556 pts/0 S 21:08 0:00 zsh aletod 14726 0.0 0.0 
+23756 5556 pts/0 S 21:08 0:00 zsh aletod 14728 0.0 0.0 23740 5172 pts/0 S 21:08 0:00 
+zsh aletod 14729 0.0 0.0 13392 3328 pts/0 Sl 21:08 0:00 
+/home/aletod/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c 
+-1 -m -1 -v FATAL -t 16 aletod 14898 1.6 1.3 2636736 216844 ?  Sl 21:09 0:13 
+/snap/firefox/5361/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 
+-prefsLen 36558 -prefMapHandle 1 -prefMapSize 258961 -jsInitHandle 2 -jsInitLen 234660 
+-parentBuildID 20241125231607 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 
+-initialChannelId {560da5b4-2d43-4379-bcb9-642045d518f2} -parentPid 2099 
+-crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja -appomni 
+/snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 44 tab root 15668 0.0 0.0 0 0 ?  I 21:13 
+0:00 [kworker/u16:2-events_unbound] root 15945 0.0 0.0 0 0 ?  I 21:14 0:00 
+[kworker/6:2-mm_percpu_wq] root 15955 0.0 0.0 0 0 ?  I 21:14 0:00 [kworker/0:0-events] 
+root 15999 0.0 0.0 0 0 ?  I 21:15 0:00 [kworker/4:1-events] root 16339 0.0 0.0 0 0 ?  
+I 21:16 0:00 [kworker/5:0-events] root 16794 0.0 0.0 0 0 ?  I 21:18 0:00 [kworker/2:2] 
+root 16874 0.0 0.0 0 0 ?  I 21:19 0:00 [kworker/0:2] aletod 16962 0.0 0.4 2404700 
+78336 ?  Sl 21:19 0:00 /snap/firefox/5361/usr/lib/firefox/firefox -contentproc 
+-isForBrowser -prefsHandle 0 -prefsLen 36558 -prefMapHandle 1 -prefMapSize 258961 
+-jsInitHandle 2 -jsInitLen 234660 -parentBuildID 20241125231607 -sandboxReporter 3 
+-chrootClient 4 -ipcHandle 5 -initialChannelId {09991078-4af4-49ea-b86f-242cd12fb454} 
+-parentPid 2099 -crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja 
+-appomni /snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 45 tab aletod 17048 0.0 0.4 2404696 77684 ?  
+Sl 21:19 0:00 /snap/firefox/5361/usr/lib/firefox/firefox -contentproc -isForBrowser 
+-prefsHandle 0 -prefsLen 36558 -prefMapHandle 1 -prefMapSize 258961 -jsInitHandle 2 
+-jsInitLen 234660 -parentBuildID 20241125231607 -sandboxReporter 3 -chrootClient 4 
+-ipcHandle 5 -initialChannelId {9976c6ee-f070-4a18-aff0-42b140d274be} -parentPid 2099 
+-crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja -appomni 
+/snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 46 tab root 17124 0.0 0.0 0 0 ?  I 21:20 
+0:00 [kworker/6:1] aletod 17154 0.0 0.4 2404684 77568 ?  Sl 21:20 0:00 
+/snap/firefox/5361/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 
+-prefsLen 36558 -prefMapHandle 1 -prefMapSize 258961 -jsInitHandle 2 -jsInitLen 234660 
+-parentBuildID 20241125231607 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 
+-initialChannelId {faa2a016-1b64-4f2e-99e8-75292d8b39ff} -parentPid 2099 
+-crashReporter 6 -greomni /snap/firefox/5361/usr/lib/firefox/omni.ja -appomni 
+/snap/firefox/5361/usr/lib/firefox/browser/omni.ja -appDir 
+/snap/firefox/5361/usr/lib/firefox/browser 47 tab root 17189 0.0 0.0 0 0 ?  I 21:20 
+0:00 [kworker/7:2] root 17223 0.0 0.0 0 0 ?  I 21:21 0:00 [kworker/1:2] aletod 17263 
+0.0 0.0 0 0 ?  Zs 21:22 0:00 [i3bar] <defunct> root 17390 0.1 0.0 0 0 ?  I 21:22 0:00 
+[kworker/u16:3-events_unbound] root 17467 0.0 0.0 0 0 ?  I< 21:22 0:00 [kworker/u17:0] 
+root 17492 0.0 0.0 0 0 ?  I 21:22 0:00 [kworker/4:2-events] root 17507 0.0 0.0 0 0 ?  
+I 21:23 0:00 [kworker/5:2] aletod 17710 0.6 0.0 170336 12160 ?  Ss 21:23 0:00 i3bar 
+--bar_id=bar-0 --socket=/run/user/1000/i3/ipc-socket.1483 aletod 17716 0.0 0.0 2892 
+1664 ?  S 21:23 0:00 /bin/sh -c i3status aletod 17718 0.0 0.0 27928 6272 ?  S 21:23 
+0:00 i3status aletod 17736 0.0 0.0 21328 3712 pts/1 R+ 21:23 0:00 ps aux aletod 17737 
+0.0 0.0 18792 4480 pts/1 R+ 21:23 0:00 pico
